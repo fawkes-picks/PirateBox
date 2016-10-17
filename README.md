@@ -1,0 +1,2 @@
+# PirateBox
+This is a simple script to setup everything needed on your new pirate box installation. You should make sure to change your password for "alarm" first. Once you do that, login to your access point, then on your host machine run "scp pirate-setup.sh alarm@192.168.77.1:/etc/". This places the script in your "/etc/" directory, then ssh into your Pi and go to that directory and "chmod +x" the script. Run it with "sudo" and you'll be good to go.
